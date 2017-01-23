@@ -1,0 +1,22 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore demo executable
+!wc_demo
+
+# Unignore Makefile
+!Makefile
+
+### Above combination will ignore all files without extension ###
+
+## Mac DS Store
+.DS_Store
+
+## C Intermediate Files
+*.o
